@@ -55,18 +55,23 @@ const TechStacks = () => {
   );
 
   return (
-    <section id="tech-stacks" className="py-20 bg-gray-900">
+    <section id="tech-stacks" className="py-20 px-4 bg-gradient-to-br from-gray-900 to-slate-800">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold mb-12 text-center text-white"
+          className="text-center"
         >
-          Technologies
+          <h2 className="text-4xl h-[55px] md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">
+            Technologies
+          </h2>
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            Les stacks que je maitrise
+          </p>
         </motion.h2>
 
-        <div className="flex flex-row justify-between gap-[5rem] items-center">
+        <div className="flex flex-row justify-between gap-[2rem] items-center">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 w-full">
             {techStacks.map((tech, index) => (
               <motion.div
@@ -77,7 +82,6 @@ const TechStacks = () => {
                 className="flex flex-col items-center"
               >
                 <div className="w-16 h-16 flex items-center justify-center bg-gray-500 bg-opacity-30 rounded-full mb-4 p-3">
-                  {/* SVG pour chaque icône */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"

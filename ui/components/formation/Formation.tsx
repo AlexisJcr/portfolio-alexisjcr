@@ -30,15 +30,14 @@ const InfoCard = ({
     <div className="relative z-10 p-6 bg-black bg-opacity-70 h-full">
       <h3 className="text-xl font-bold mb-2 text-center">{title}</h3>
       <div className="w-full h-[0.1rem] bg-blue-500 mb-4"></div>
-      <p className="text-white text-[18px] font-normal leading-loose">{text}</p>
+      <p className="text-white text-lg font-normal leading-loose">{text}</p>
     </div>
   </div>
 );
 
 const formationData = [
-  // { date: "2026-2028", title: "[Prévision] Master Développement logiciel des systèmes d'information", subtitle: "Université de Bretagne Occidentale - Brest" },
   {
-    date: "2025 - 2026",
+    date: "2025 - 2026, 3ème Année",
     degree: "Licence Informatique Conception et Développement d'Applications",
     institution: "Université de Bretagne Occidentale",
     location: "Brest, Bretagne, France",
@@ -73,8 +72,8 @@ const infoCards = [
     imageSrc: formaSN,
   },
   {
-    title: "Licence Informatique Conception et Développement d'Applications",
-    text: "Après une année de césure, je compte poursuivre mes études en 2025 en Licence Informatique Conception et Développement d'Application afin de me spécialiser dans la création de logiciels, de sites web et d'IHM.",
+    title: "Licence 3 Informatique Conception et Développement d'Applications",
+    text: "Après une année de césure, je rentre en Licence Informatique Conception et Développement d'Application à l'Université de Bretagne Occidentale, afin de me spécialiser dans la création de logiciels, de sites web et d'IHM.",
     imageSrc: formaLicence,
   },
 ];
@@ -87,9 +86,14 @@ const Formation = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold mb-12 text-center"
+          className="text-center mb-10"
         >
-          Formation
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">
+            Formation
+          </h2>
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            Mon parcours formateur
+          </p>
         </motion.h2>
         <div className="space-y-12">
           {formationData.map((edu, index) => (

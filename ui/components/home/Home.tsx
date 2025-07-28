@@ -52,7 +52,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <ChevronDown size={45} className="animate-bounce" />
+          <a href="#about"> <ChevronDown size={45} className="animate-bounce" /></a>
         </motion.div>
       </section>
     </div>
