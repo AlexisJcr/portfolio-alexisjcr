@@ -63,7 +63,7 @@ const infoCards = [
   {
     title:
       "Baccalauréat Technologique STI2D, Systèmes d'Information et Numérique",
-    text: "J’ai obtenu mon Baccalauréat en Sciences et technologies de l’industrie et du développement durable avec l’option Systèmes d’Information et Numérique (SIN) en 2022. Mon intérêt pour le monde numérique, déjà grandissant à l'époque, m’a conduit à suivre cette voie technologique. J'ai pu me plonger dans l'apprentissage des règles et coutumes des projets et du monde numérique.",
+    text: "J’ai obtenu mon Baccalauréat en Sciences et Technologies de l’Industrie et du Développement Durable avec l’option Systèmes d’Information et Numérique (SIN) en 2022. Mon intérêt pour le monde numérique, déjà grandissant à l'époque, m’a conduit à suivre cette voie technologique. J'ai pu me plonger dans l'apprentissage des règles et coutumes des projets et du monde numérique.",
     imageSrc: formaSTI,
   },
   {
