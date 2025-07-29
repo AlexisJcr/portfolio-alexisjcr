@@ -63,7 +63,7 @@ const infoCards = [
   {
     title:
       "Baccalauréat Technologique STI2D, Systèmes d'Information et Numérique",
-    text: "J’ai obtenu mon Baccalauréat Technologique en Sciences de l’industrie et du développement durable avec l’option Systèmes d’Information et Numérique en 2022. Mon intérêt pour le monde numérique, déjà grandissant à l'époque, m’a conduit à suivre cette voie technologique. J'ai pu me plonger dans l'apprentissage des règles et coutumes des projets et du monde numérique.",
+    text: "J’ai obtenu mon Baccalauréat en Sciences et technologies de l’industrie et du développement durable avec l’option Systèmes d’Information et Numérique (SIN) en 2022. Mon intérêt pour le monde numérique, déjà grandissant à l'époque, m’a conduit à suivre cette voie technologique. J'ai pu me plonger dans l'apprentissage des règles et coutumes des projets et du monde numérique.",
     imageSrc: formaSTI,
   },
   {
@@ -91,9 +91,6 @@ const Formation = () => {
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">
             Formation
           </h2>
-          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Mon parcours formateur
-          </p>
         </motion.h2>
         <div className="space-y-12">
           {formationData.map((edu, index) => (
