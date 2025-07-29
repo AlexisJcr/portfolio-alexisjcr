@@ -26,7 +26,7 @@ const About = () => {
           Apprenti développeur fullstack spécialisé dans le Web et l'IoT. Passionné par le numérique, je souhaite développer mes compétences en programmation.
           </p>
           <p className='mb-4 text-xl'>
-          Curieux et engagé, je m'informes sur les technologies et innovations du moment.
+          Curieux et engagé, je m'informe sur les technologies et innovations du moment.
           </p>
           <p className='text-xl'>
             Mon objectif est d'apprendre les meilleurs méthodes et réflexes afin de réaliser une application solide, performante et conviviale selon un design UX/UI réfléchi.
