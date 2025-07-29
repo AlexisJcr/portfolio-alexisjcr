@@ -23,12 +23,11 @@ const About = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <p className="mb-4 text-xl">
-          Apprenti développeur fullstack spécialisé dans le Web et l'IoT. Passionné par le numérique,
+          Apprenti développeur fullstack spécialisé dans le Web et l'IoT. Passionné par le numérique, je souhaite développer mes compétences en programmation.
           </p>
           <p className='mb-4 text-xl'>
-          Je souhaite développer mes compétences en programmation. Curieux et engagé, je m'informes sur les technologies et innovations du moment.
+          Curieux et engagé, je m'informes sur les technologies et innovations du moment.
           </p>
-          
           <p className='text-xl'>
             Mon objectif est d'apprendre les meilleurs méthodes et réflexes afin de réaliser une application solide, performante et conviviale selon un design UX/UI réfléchi.
           </p>
