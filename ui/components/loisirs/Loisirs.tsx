@@ -20,7 +20,7 @@ const loisirs: Loisir[] = [
     title: "Voyages",
     icon: <Plane className="w-8 h-8" />,
     description:
-      "Passionné par la découverte de nouvelles cultures et destinations, j'ai eu la chance de voyager en Italie, ainsi qu'au Vietnam à plusieurs reprises. Ces expériences, très différentes tant sur le plan culturel que géographique, m'ont permis de m'immerger dans des modes de vie variés, de renforcer ma capacité d'adaptation, et d'élargir ma vision du monde. Ces voyages ont également été l'occasion de partager des mes compétences dans le domaine numérique à travers des conférences et des rencontres professionnelles, enrichissant ainsi ces séjours d'échanges techniques et humains.",
+      "Passionné par la découverte de nouvelles cultures et destinations, j'ai eu la chance de voyager en Italie, ainsi qu'au Vietnam à plusieurs reprises. Ces expériences, très différentes tant sur le plan culturel que géographique, m'ont permis de m'immerger dans des modes de vie variés, de renforcer ma capacité d'adaptation, et d'élargir ma vision du monde. Ces voyages ont également été l'occasion de partager mes compétences dans le domaine numérique à travers des conférences et des rencontres professionnelles, enrichissant ainsi ces séjours d'échanges techniques et humains.",
     gradient: "from-blue-500 to-cyan-400",
     iconColor: "text-blue-600",
   },
@@ -29,7 +29,7 @@ const loisirs: Loisir[] = [
     title: "Humanitaire",
     icon: <Heart className="w-8 h-8" />,
     description:
-      "Lors de mes deux voyages au Vietnam, j'ai eu l'opportunité de m'impliquer dans une action humanitaire au sein de l'association FFSC (Friends For Street Childrens) à Ho Chi Minh-Ville. Avec notre groupe de voyageurs français, nous avons consacré du temps aux enfants d'un des orphelinats catholique : animations, échanges, moments de partage, remise de cadeaux et contribution financière par des dons. Cette expérience humaine forte a profondément enrichi le sens de voyages alliant engagement social et ouverture culturelle.",
+      "Lors de mes deux voyages au Vietnam, j'ai eu l'opportunité de m'impliquer dans une action humanitaire au sein de l'association FFSC (Friends For Street Childrens) à Ho Chi Minh-Ville. Avec notre groupe de voyageurs français, nous avons consacré du temps aux enfants d'un des orphelinats catholique : animations, échanges, moments de partage, remise de cadeaux et contribution financière par des dons. Cette expérience humaine forte a profondément enrichi le sens de ces voyages alliant engagement social et ouverture culturelle.",
     gradient: "from-red-500 to-pink-400",
     iconColor: "text-red-600",
   },
@@ -47,7 +47,7 @@ const loisirs: Loisir[] = [
     title: "Montage Vidéo",
     icon: <Video className="w-8 h-8" />,
     description:
-      "Le montage vidéo, une passion née naturellement à la suite de mes voyages, et expériences marquantes. Grâce à un apprentissage personnel sur DaVinci Resolve, j'ai appris à me créer des souvenirs en traduisant les moments vécus par des scènes épiques ou nostalgiques. Réaliser des vidéos après un événement ou un voyage me permet de replonger dans mes souvenirs et de revivre ces instants",
+      "Le montage vidéo, une passion née naturellement à la suite de mes voyages, et expériences marquantes. Grâce à un apprentissage personnel sur DaVinci Resolve, j'ai appris à me créer des souvenirs en traduisant les moments vécus par des scènes épiques ou nostalgiques. Réaliser des vidéos après un événement ou un voyage me permet de replonger dans mes souvenirs et de revivre ces instants.",
     gradient: "from-green-500 to-emerald-400",
     iconColor: "text-green-600",
   },
