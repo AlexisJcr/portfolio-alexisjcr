@@ -18,9 +18,9 @@ const CompetenceCard = ({
 }: CompetenceCardProps) => (
   <div className="bg-black z-0 rounded-lg shadow-lg p-6 flex flex-col items-center">
     <Icon className="text-5xl text-blue-500 mb-4" />
-    <h3 className="text-xl font-semibold text-center">{title}</h3>
-    <h2 className="text-lg font-medium mt-3">{subtitle}</h2>
-    <p className="text-base font-normal mt-3 text-center">{text}</p>
+    <h3 className="text-xl text-gray-100 font-semibold text-center">{title}</h3>
+    <h2 className="text-lg text-gray-200 font-medium mt-3">{subtitle}</h2>
+    <p className="text-base text-gray-200 font-normal mt-3 text-center">{text}</p>
   </div>
 );
 

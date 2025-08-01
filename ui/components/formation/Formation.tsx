@@ -27,10 +27,10 @@ const InfoCard = ({
       objectFit="cover"
       className="absolute inset-0 z-0"
     />
-    <div className="relative z-10 p-6 bg-black bg-opacity-70 h-full">
-      <h3 className="text-xl font-bold mb-2 text-center">{title}</h3>
+    <div className="relative z-10 p-6 bg-black bg-opacity-80 h-full">
+      <h3 className="text-xl text-gray-100 font-semibold mb-2 text-center">{title}</h3>
       <div className="w-full h-[0.1rem] bg-blue-500 mb-4"></div>
-      <p className="text-white text-lg font-normal leading-loose">{text}</p>
+      <p className="text-gray-200 text-lg font-normal leading-loose">{text}</p>
     </div>
   </div>
 );
@@ -80,18 +80,17 @@ const infoCards = [
 
 const Formation = () => {
   return (
-    <section id="education" className="py-20">
+    <section id="formation" className="py-20">
       <div className="container mx-auto px-4 z-1">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-10"
+          className="text-4xl md:text-5xl font-bold text-center text-gray-100 mb-10"
         >
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">
-            Formation
-          </h2>
+          Formation
         </motion.h2>
+
         <div className="space-y-12">
           {formationData.map((edu, index) => (
             <motion.div
@@ -102,23 +101,23 @@ const Formation = () => {
               className="bg-gray-700 rounded-lg p-6 shadow-lg flex items-center justify-between"
             >
               <div className="">
-                <div className="flex items-center mb-4">
-                  <GraduationCap className="text-blue-500 mr-2" size={32} />
-                  <h3 className="text-xl font-semibold">{edu.degree}</h3>
-                </div>
-                <p className="text-gray-200 mb-2 text-lg">{edu.institution}</p>
-                <div className="flex items-center text-gray-200 mb-2 text-lg">
-                  <Calendar className="mr-2 text-blue-300" size={16} />
-                  <span>{edu.date}</span>
-                </div>
-                <div className="flex items-center text-gray-200 mb-4 text-lg">
-                  <MapPin className="mr-2 text-blue-300" size={16} />
-                  <span>{edu.location}</span>
-                </div>
+                  <div className="flex items-center mb-4">
+                    <GraduationCap className="xs:hidden sm:flex text-blue-500 mr-2" size={32} />
+                    <h3 className="xs:text-center text-gray-100 text-xl font-semibold">{edu.degree}</h3>
+                  </div>
+                  <p className="text-gray-200 mb-2 text-lg">{edu.institution}</p>
+                  <div className="flex items-center text-gray-200 mb-2 text-lg">
+                    <Calendar className="mr-2 text-blue-300" size={16} />
+                    <span>{edu.date}</span>
+                  </div>
+                  <div className="flex items-center text-gray-200 mb-4 text-lg">
+                    <MapPin className="mr-2 text-blue-300" size={16} />
+                    <span>{edu.location}</span>
+                  </div>
               </div>
-              <div className="">
+              <div className="xs:hidden sm:flex">
                   <Image src={edu.logoUrl} height={150} width={150} alt="logo"></Image>
-              </div>
+                </div>
             </motion.div>
           ))}
         </div>

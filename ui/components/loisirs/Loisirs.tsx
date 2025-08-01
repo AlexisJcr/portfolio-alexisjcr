@@ -93,7 +93,7 @@ export default function MesLoisirs() {
   }
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-gray-900 to-slate-800">
+    <section id="loisirs" className="py-20 px-4 bg-gradient-to-br from-gray-900 to-slate-800">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -129,12 +129,12 @@ export default function MesLoisirs() {
                       >
                         {loisir.icon}
                       </motion.div>
-                      <CardTitle className="text-2xl font-bold text-gray-900 dark:text-white">{loisir.title}</CardTitle>
+                      <CardTitle className="text-2xl font-bold text-gray-100">{loisir.title}</CardTitle>
                     </div>
                   </CardHeader>
 
                   <CardContent>
-                    <p className="text-lg mt-4 text-gray-100 leading-relaxed">{loisir.description}</p>
+                    <p className="text-lg mt-4 text-gray-200 leading-relaxed">{loisir.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
